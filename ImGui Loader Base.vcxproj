@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{82212CF7-C4EA-436C-ADD5-F7AD56122BF5}</ProjectGuid>
+    <RootNamespace>ImGui Loader Base</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>MEGA 2.5.0</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Dark-Loader</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\discord-rpc-master\include;D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\Microsoft-DirectX-SDK-June-2010--master\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\Microsoft-DirectX-SDK-June-2010--master\Lib\x64;$(LibraryPath)</LibraryPath>
+    <SourcePath>$(VC_SourcePath);</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\Microsoft-DirectX-SDK-June-2010--master\Include;D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\discord-rpc-master\include;C:\Users\Admin\Desktop\MegaVipSource %40vipsourcecode\MegaVipSource %40vipsourcecode\MEGA 2.5.4 V\nlohmann;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\Microsoft-DirectX-SDK-June-2010--master\Lib\x64;$(LibraryPath)</LibraryPath>
+    <LinkIncremental />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\telegram filess\200%24 PROJECT;D:\telegram filess\200%24 PROJECT\200%24 PROJECT;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\Microsoft-DirectX-SDK-June-2010--master\Include;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\libs\openssl\include;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\libs\json\include;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\libs\curl\include;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\libs\cryptopp\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>D:\telegram filess\200%24 PROJECT\200%24 PROJECT\api;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\Microsoft-DirectX-SDK-June-2010--master\Lib\x64;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\Microsoft-DirectX-SDK-June-2010--master\Lib\x86;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\libs\openssl\lib;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\libs\curl\lib;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\libs\cryptopp\lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>D:\telegram filess\200%24 PROJECT;D:\telegram filess\200%24 PROJECT\200%24 PROJECT;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\Microsoft-DirectX-SDK-June-2010--master\Include;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\libs\openssl\include;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\libs\json\include;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\libs\curl\include;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\libs\cryptopp\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>D:\telegram filess\200%24 PROJECT\200%24 PROJECT\api;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\Microsoft-DirectX-SDK-June-2010--master\Lib\x64;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\Microsoft-DirectX-SDK-June-2010--master\Lib\x86;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\libs\openssl\lib;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\libs\curl\lib;D:\telegram filess\200%24 PROJECT\200%24 PROJECT\libs\cryptopp\lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Custom</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AdditionalIncludeDirectories>$(ProjectDir)api</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>./libs/cryptopp/lib/cryptopp-static.lib;./libs/curl/lib/libcurl.lib;./libs/openssl/lib/libcrypto.lib;./libs/openssl/lib/libssl.lib;./libs/zlib.lib;Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseFastLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(ProjectDir)api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib</AdditionalDependencies>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Aimbot.cpp" />
+    <ClCompile Include="Algorithm.cpp" />
+    <ClCompile Include="D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\discord-rpc-master\src\connection_win.cpp" />
+    <ClCompile Include="D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\discord-rpc-master\src\discord_register_win.cpp" />
+    <ClCompile Include="D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\discord-rpc-master\src\discord_rpc.cpp" />
+    <ClCompile Include="D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\discord-rpc-master\src\dllmain.cpp" />
+    <ClCompile Include="D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\discord-rpc-master\src\rpc_connection.cpp" />
+    <ClCompile Include="D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\discord-rpc-master\src\serialization.cpp" />
+    <ClCompile Include="Data.cpp" />
+    <ClCompile Include="Discord.cpp" />
+    <ClCompile Include="Driver.cpp" />
+    <ClCompile Include="DX11.cpp" />
+    <ClCompile Include="DX11Window.cpp" />
+    <ClCompile Include="Esp.cpp" />
+    <ClCompile Include="Global.cpp" />
+    <ClCompile Include="imgui-docking\imgui.cpp" />
+    <ClCompile Include="imgui-docking\imgui_demo.cpp" />
+    <ClCompile Include="imgui-docking\imgui_draw.cpp" />
+    <ClCompile Include="imgui-docking\imgui_impl_dx11.cpp" />
+    <ClCompile Include="imgui-docking\imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui-docking\imgui_tables.cpp" />
+    <ClCompile Include="imgui-docking\imgui_widgets.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="Setting.cpp" />
+    <ClCompile Include="Utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aimbot.h" />
+    <ClInclude Include="Algorithm.h" />
+    <ClInclude Include="api\KeyAuth.hpp" />
+    <ClInclude Include="D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\discord-rpc-master\src\backoff.h" />
+    <ClInclude Include="D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\discord-rpc-master\src\connection.h" />
+    <ClInclude Include="D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\discord-rpc-master\src\msg_queue.h" />
+    <ClInclude Include="D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\discord-rpc-master\src\rpc_connection.h" />
+    <ClInclude Include="D:\devloper\source\Pubg-Mobile-Game-loop-External-Cheat-main\Pubg-Mobile-Game-loop-External-Cheat-main\Darkness Vip Hack\discord-rpc-master\src\serialization.h" />
+    <ClInclude Include="Data.h" />
+    <ClInclude Include="Discord.h" />
+    <ClInclude Include="Driver.h" />
+    <ClInclude Include="DX11.h" />
+    <ClInclude Include="DX11Window.h" />
+    <ClInclude Include="Esp.h" />
+    <ClInclude Include="font.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="Header1.h" />
+    <ClInclude Include="Header10.h" />
+    <ClInclude Include="Header11.h" />
+    <ClInclude Include="Header12.h" />
+    <ClInclude Include="Header13.h" />
+    <ClInclude Include="Header14.h" />
+    <ClInclude Include="Header15.h" />
+    <ClInclude Include="Header16.h" />
+    <ClInclude Include="Header17.h" />
+    <ClInclude Include="Header18.h" />
+    <ClInclude Include="Header19.h" />
+    <ClInclude Include="Header2.h" />
+    <ClInclude Include="Header20.h" />
+    <ClInclude Include="Header21.h" />
+    <ClInclude Include="Header22.h" />
+    <ClInclude Include="Header23.h" />
+    <ClInclude Include="Header24.h" />
+    <ClInclude Include="Header25.h" />
+    <ClInclude Include="Header26.h" />
+    <ClInclude Include="Header27.h" />
+    <ClInclude Include="Header3.h" />
+    <ClInclude Include="Header4.h" />
+    <ClInclude Include="Header5.h" />
+    <ClInclude Include="Header6.h" />
+    <ClInclude Include="Header7.h" />
+    <ClInclude Include="Header8.h" />
+    <ClInclude Include="Header9.h" />
+    <ClInclude Include="icon.h" />
+    <ClInclude Include="iconcpp.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="imgui-docking\imconfig.h" />
+    <ClInclude Include="imgui-docking\imgui.h" />
+    <ClInclude Include="imgui-docking\imgui_impl_dx11.h" />
+    <ClInclude Include="imgui-docking\imgui_impl_win32.h" />
+    <ClInclude Include="imgui-docking\imgui_internal.h" />
+    <ClInclude Include="imgui-docking\imstb_rectpack.h" />
+    <ClInclude Include="imgui-docking\imstb_textedit.h" />
+    <ClInclude Include="imgui-docking\imstb_truetype.h" />
+    <ClInclude Include="imguipp.h" />
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="loadDrv.h" />
+    <ClInclude Include="m416.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Mem.h" />
+    <ClInclude Include="Memory.h" />
+    <ClInclude Include="Offset.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="resource2.h" />
+    <ClInclude Include="resource3.h" />
+    <ClInclude Include="Setting.h" />
+    <ClInclude Include="SimpleIni.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="xCheto.hpp" />
+    <ClInclude Include="xorstr.hpp" />
+    <ClInclude Include="YAs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Pictures\new.png" />
+    <Image Include="..\..\Pictures\new11.png" />
+    <Image Include="F:\NewDownload\new.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KHANI.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
